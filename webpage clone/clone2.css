@@ -1,0 +1,129 @@
+html , body {
+    height: 100%;
+    width: 100%;
+}
+    
+
+ 
+ body {
+    background-image: url(Assets/background-image.png);
+    background-size: cover;
+}
+.container
+{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: auto;
+}
+nav ul li {
+    padding: 0 40px;
+    font-size: 25px;
+}
+.left  li:hover{
+background-color:wheat;
+}
+.right button {
+   
+    background-color: #fc26b4; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.right button:hover{
+    background-color: white;
+    color: pink;
+
+}
+.rightside img{
+    float: right;
+}
+.leftside h2{
+    font-size: 100px;
+    margin-left: 50px;
+}
+.leftside p {
+    font-size: 50px;
+    
+    margin-left: 50px;
+   
+}
+
+.bottom ul li {
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 0 12px;
+}
+.bottom ul li:hover{
+  background-color: wheat;
+}
+
+.carb button{
+    display: flex;
+   align-items: center
+    ;
+   margin-left: 25cm;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: white;
+    height: 1.5cm;
+}
+.houseb button {
+    display: flex;
+    align-items: center;
+    float: right;
+    border-radius: 25px;
+   font-size: 25px;
+   background-color: white;
+   height: 1.5cm;
+    
+}
+.carb button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.houseb button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+.b1{
+    margin-left: 50px;
+   
+background-color: #fc26b4; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.b2
+{ 
+    background-color: #fc26b4; 
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+
+}
+.btn button:hover{
+    background-color: #f1ecec;
+    color: #fc26b4;
+    border:1px solid #fc26b4;
+    
+
+}
+
+
